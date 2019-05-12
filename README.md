@@ -12,9 +12,7 @@ This is an implementation of the [Conway's Game of Life](https://en.wikipedia.or
 ## Usage
 
 1. `cd conways-game-of-life`
-1. Run.
-    - Windows: `gradle.bat run`
-    - Other: `./gradlew run`
+1. `<GRADLE> run --console=plain -q`, where `<GRADLE>` is `gradle.bat` on Windows, and `./gradlew` on others.
 
 ## Testing
 

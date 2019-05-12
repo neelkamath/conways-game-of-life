@@ -5,7 +5,6 @@ import com.neelkamath.life.Life
 import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFails
-import kotlin.test.assertSame
 
 class LifeTest {
     @Test
@@ -37,7 +36,7 @@ class LifeTest {
             ), system
         )
         tick()
-        assertSame(
+        assertEquals(
             listOf(
                 mutableListOf(Cell.DEAD, Cell.DEAD, Cell.DEAD),
                 mutableListOf(Cell.DEAD, Cell.DEAD, Cell.DEAD),
